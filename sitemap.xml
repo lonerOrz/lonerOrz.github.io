@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lonerorz.github.io/posts/8a92.html</loc>
+    
+    <lastmod>2025-04-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://lonerorz.github.io/posts/b859.html</loc>
     
     <lastmod>2025-03-31</lastmod>
@@ -94,7 +103,7 @@
 
   <url>
     <loc>https://lonerorz.github.io/</loc>
-    <lastmod>2025-04-01</lastmod>
+    <lastmod>2025-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -102,28 +111,35 @@
   
   <url>
     <loc>https://lonerorz.github.io/tags/linux/</loc>
-    <lastmod>2025-04-01</lastmod>
+    <lastmod>2025-04-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://lonerorz.github.io/tags/hyprland/</loc>
-    <lastmod>2025-04-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://lonerorz.github.io/tags/python/</loc>
-    <lastmod>2025-04-01</lastmod>
+    <lastmod>2025-04-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://lonerorz.github.io/tags/markdown/</loc>
-    <lastmod>2025-04-01</lastmod>
+    <lastmod>2025-04-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lonerorz.github.io/tags/python/</loc>
+    <lastmod>2025-04-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lonerorz.github.io/tags/yazi/</loc>
+    <lastmod>2025-04-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
