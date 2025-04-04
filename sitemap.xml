@@ -126,6 +126,13 @@
   </url>
   
   <url>
+    <loc>https://lonerorz.github.io/tags/hyprland/</loc>
+    <lastmod>2025-04-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://lonerorz.github.io/tags/markdown/</loc>
     <lastmod>2025-04-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -141,13 +148,6 @@
   
   <url>
     <loc>https://lonerorz.github.io/tags/yazi/</loc>
-    <lastmod>2025-04-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://lonerorz.github.io/tags/hyprland/</loc>
     <lastmod>2025-04-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
