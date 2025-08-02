@@ -104,7 +104,7 @@ svg.icon.faa-tada {
 }
 
 /* 解决artitalk的图标问题 */
-#uploadSource>svg {
+#uploadSource > svg {
   width: 1.19em;
   height: 1.5em;
 }
@@ -115,7 +115,7 @@ svg.icon.faa-tada {
 }
 
 /* 首页文章卡片 */
-#recent-posts>.recent-post-item {
+#recent-posts > .recent-post-item {
   background: rgba(225, 230, 235, 0.85);
   /* 偏蓝的浅灰色 */
 }
@@ -157,7 +157,7 @@ div#category {
 }
 
 /*夜间模式伪类遮罩层透明*/
-[data-theme="dark"] #recent-posts>.recent-post-item {
+[data-theme="dark"] #recent-posts > .recent-post-item {
   background: #121212;
 }
 
@@ -199,7 +199,7 @@ div#category {
   background: transparent !important;
 }
 
-#rightside>div>button {
+#rightside > div > button {
   border-radius: 5px;
 }
 
@@ -231,7 +231,7 @@ div#category {
 } */
 
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
-  left: -66px !important;
+  left: 0px !important;
   transition: all 0.3s;
   /* 默认情况下缩进左侧66px，只留一点箭头部分 */
 }
@@ -453,8 +453,18 @@ span.card-archive-list-count {
   align-items: baseline;
 }
 
-#aside-content .card-archives ul.card-archive-list>.card-archive-list-item a span:last-child,
-#aside-content .card-categories ul.card-category-list>.card-category-list-item a span:last-child {
+#aside-content
+  .card-archives
+  ul.card-archive-list
+  > .card-archive-list-item
+  a
+  span:last-child,
+#aside-content
+  .card-categories
+  ul.card-category-list
+  > .card-category-list-item
+  a
+  span:last-child {
   width: fit-content;
   margin-left: 4px;
 }
@@ -477,8 +487,16 @@ li.card-archive-list-item {
   flex: 0 0 48%;
 }
 
-#aside-content .card-archives ul.card-archive-list>.card-archive-list-item a:hover,
-#aside-content .card-categories ul.card-category-list>.card-category-list-item a:hover {
+#aside-content
+  .card-archives
+  ul.card-archive-list
+  > .card-archive-list-item
+  a:hover,
+#aside-content
+  .card-categories
+  ul.card-category-list
+  > .card-category-list-item
+  a:hover {
   color: var(--anzhiyu-white);
   background-color: var(--anzhiyu-theme);
   box-shadow: var(--anzhiyu-shadow-theme);
@@ -488,20 +506,39 @@ li.card-archive-list-item {
 }
 
 @media screen and (min-width: 1300px) {
-
-  #aside-content .card-archives ul.card-archive-list>.card-archive-list-item a:hover,
-  #aside-content .card-categories ul.card-category-list>.card-category-list-item a:hover {
+  #aside-content
+    .card-archives
+    ul.card-archive-list
+    > .card-archive-list-item
+    a:hover,
+  #aside-content
+    .card-categories
+    ul.card-category-list
+    > .card-category-list-item
+    a:hover {
     transform: scale(1.03);
   }
 
-  #aside-content .card-archives ul.card-archive-list>.card-archive-list-item a:active,
-  #aside-content .card-categories ul.card-category-list>.card-category-list-item a:active {
+  #aside-content
+    .card-archives
+    ul.card-archive-list
+    > .card-archive-list-item
+    a:active,
+  #aside-content
+    .card-categories
+    ul.card-category-list
+    > .card-category-list-item
+    a:active {
     transform: scale(0.97);
   }
 }
 
-#aside-content .card-archives ul.card-archive-list>.card-archive-list-item a,
-#aside-content .card-categories ul.card-category-list>.card-category-list-item a {
+#aside-content .card-archives ul.card-archive-list > .card-archive-list-item a,
+#aside-content
+  .card-categories
+  ul.card-category-list
+  > .card-category-list-item
+  a {
   border-radius: 8px;
   margin: 4px 0;
   display: flex;
@@ -510,8 +547,18 @@ li.card-archive-list-item {
   border: var(--style-border);
 }
 
-#aside-content .card-archives ul.card-archive-list>.card-archive-list-item a span:first-child,
-#aside-content .card-categories ul.card-category-list>.card-category-list-item a span:first-child {
+#aside-content
+  .card-archives
+  ul.card-archive-list
+  > .card-archive-list-item
+  a
+  span:first-child,
+#aside-content
+  .card-categories
+  ul.card-category-list
+  > .card-category-list-item
+  a
+  span:first-child {
   width: auto;
   flex: inherit;
 }
@@ -555,12 +602,14 @@ li.card-archive-list-item {
 }
 
 /* 侧边栏个人卡片渐变色  */
-#aside-content>.card-widget.card-info {
-  background: linear-gradient(-45deg,
-      var(--anzhiyu-main),
-      #031764,
-      #150136,
-      #67044d);
+#aside-content > .card-widget.card-info {
+  background: linear-gradient(
+    -45deg,
+    var(--anzhiyu-main),
+    #031764,
+    #150136,
+    #67044d
+  );
   background-size: 400%;
   box-shadow: var(--anzhiyu-shadow-black);
   animation: gradient 15s ease infinite;
@@ -568,7 +617,7 @@ li.card-archive-list-item {
   color: var(--anzhiyu-white);
 }
 
-.site-data>a .headline,
-.site-data>a .length-num {
+.site-data > a .headline,
+.site-data > a .length-num {
   color: var(--anzhiyu-white);
 }
