@@ -142,6 +142,13 @@
   </url>
   
   <url>
+    <loc>https://lonerorz.github.io/tags/markdown/</loc>
+    <lastmod>2025-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://lonerorz.github.io/tags/python/</loc>
     <lastmod>2025-08-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -150,13 +157,6 @@
   
   <url>
     <loc>https://lonerorz.github.io/tags/yazi/</loc>
-    <lastmod>2025-08-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://lonerorz.github.io/tags/markdown/</loc>
     <lastmod>2025-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

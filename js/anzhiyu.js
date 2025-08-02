@@ -1,6 +1,6 @@
 var anzhiyu = {
   // 音乐节目切换背景
-  changeMusicBg: function (isChangeBg = true) {
+  changeMusicBg: function(isChangeBg = true) {
     if (window.location.pathname != "/music/") {
       return;
     }
@@ -10,6 +10,7 @@ var anzhiyu = {
       // player listswitch 会进入此处
       const musiccover = document.querySelector("#anMusic-page .aplayer-pic");
       anMusicBg.style.backgroundImage = musiccover.style.backgroundImage;
+      console.info(anMusicBg);
     } else {
       // 第一次进入，绑定事件，改背景
       let timer = setInterval(() => {
@@ -33,27 +34,33 @@ var anzhiyu = {
       }, 100);
     }
   },
-  addEventListenerChangeMusicBg: function () {
+  addEventListenerChangeMusicBg: function() {
     const anMusicPage = document.getElementById("anMusic-page");
-    const aplayerIconMenu = anMusicPage.querySelector(".aplayer-info .aplayer-time .aplayer-icon-menu");
+    const aplayerIconMenu = anMusicPage.querySelector(
+      ".aplayer-info .aplayer-time .aplayer-icon-menu",
+    );
 
-    anMusicPage.querySelector("meting-js").aplayer.on("loadeddata", function () {
-      anzhiyu.changeMusicBg();
-      console.info("player loadeddata");
-    });
+    anMusicPage
+      .querySelector("meting-js")
+      .aplayer.on("loadeddata", function() {
+        anzhiyu.changeMusicBg();
+        console.info("player loadeddata");
+      });
 
-    aplayerIconMenu.addEventListener("click", function () {
+    aplayerIconMenu.addEventListener("click", function() {
       document.getElementById("menu-mask").style.display = "block";
-      document.getElementById("menu-mask").style.animation = "0.5s ease 0s 1 normal none running to_show";
+      document.getElementById("menu-mask").style.animation =
+        "0.5s ease 0s 1 normal none running to_show";
     });
 
-    document.getElementById("menu-mask").addEventListener("click", function () {
+    document.getElementById("menu-mask").addEventListener("click", function() {
       if (window.location.pathname != "/music/") return;
-      anMusicPage.querySelector(".aplayer-list").classList.remove("aplayer-list-hide");
+      anMusicPage
+        .querySelector(".aplayer-list")
+        .classList.remove("aplayer-list-hide");
     });
   },
 };
 
 // 调用
 anzhiyu.changeMusicBg(false);
-

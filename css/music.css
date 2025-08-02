@@ -25,7 +25,7 @@ body:has(#anMusic-page) #an_music_bg {
 }
 
 body:has(#anMusic-page) {
-  background: rgb(13, 13, 13);
+  background: transparent !important;
 }
 
 #anMusic-page meting-js .aplayer {
@@ -84,7 +84,21 @@ body:has(#anMusic-page) #nav-music {
 #anMusic-page .aplayer-info .aplayer-lrc {
   height: 800%;
   margin-top: 80px;
-  mask-image: linear-gradient(to bottom, #000, #000, #000, #000, #000, #000, #000, #000, #000, #000, #0000, #0000);
+  mask-image: linear-gradient(
+    to bottom,
+    #000,
+    #000,
+    #000,
+    #000,
+    #000,
+    #000,
+    #000,
+    #000,
+    #000,
+    #000,
+    #0000,
+    #0000
+  );
 }
 #anMusic-page .aplayer-info .aplayer-lrc p {
   font-size: 14px;
@@ -206,7 +220,12 @@ body:has(#anMusic-page) .s-sticker div {
   color: var(--anzhiyu-white) !important;
 }
 
-body:has(#anMusic-page) .aplayer .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon.aplayer-icon-loop {
+body:has(#anMusic-page)
+  .aplayer
+  .aplayer-info
+  .aplayer-controller
+  .aplayer-time
+  .aplayer-icon.aplayer-icon-loop {
   margin-right: 15px;
 }
 
@@ -296,7 +315,15 @@ body:has(#anMusic-page) .aplayer .aplayer-info .aplayer-controller .aplayer-time
     height: auto;
     max-height: 200%;
     min-height: 100%;
-    mask-image: linear-gradient(to bottom, #000, #000, #000, #000, #0000, #0000);
+    mask-image: linear-gradient(
+      to bottom,
+      #000,
+      #000,
+      #000,
+      #000,
+      #0000,
+      #0000
+    );
   }
   #anMusic-page .aplayer-info .aplayer-lrc p.aplayer-lrc-current {
     color: #33a673;
@@ -358,8 +385,11 @@ body:has(#anMusic-page) .aplayer .aplayer-info .aplayer-controller .aplayer-time
     bottom: 0px;
     right: 7px;
   }
-  #anMusic-page .aplayer .aplayer-info .aplayer-controller .aplayer-volume-wrap {
+  #anMusic-page
+    .aplayer
+    .aplayer-info
+    .aplayer-controller
+    .aplayer-volume-wrap {
     left: -66px;
   }
 }
-
